@@ -1,0 +1,16 @@
+{
+  "scriptId": "1GdLXz36I5lEcOit4SQ7SWy_hMR1-IMrtkpi83DjpfgeF50_9N4n2Pdxi",
+  "rootDir": "PAL Tracker",
+  "scriptExtensions": [
+    ".js",
+    ".gs"
+  ],
+  "htmlExtensions": [
+    ".html"
+  ],
+  "jsonExtensions": [
+    ".json"
+  ],
+  "filePushOrder": [],
+  "skipSubdirectories": false
+}

@@ -7,12 +7,13 @@ function main() {
   const fileList = convertAndSortFiles(folder);
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const masterSheet = ss.getSheetByName('Tracker') || ss.insertSheet('Tracker');
-
+  // Clear existing data and setup the master sheet
   masterSheet.clear();
   setupMasterSheet(masterSheet, fileList);
+  
+  //Testing
 
   const consolidatedData = [];
-
   Logger.log('Processing Files...');
   // Consolidate data for all PAL sheets in an array
   fileList.forEach(spreadsheet => {
