@@ -6,7 +6,7 @@ This repository contains various projects related to the operations and manageme
 
 ```
 /BB/
-  ├── PAL Tracker/      # Project for tracking performance and logistics (Google Apps Script integration)
+  ├── PAL Tracker/      # Project for tracking wholesale cost changes (Google Apps Script integration)
   ├── .clasp.json       # Configuration file for Google Apps Script using clasp
   ├── README.md         # This file
   └── ...
